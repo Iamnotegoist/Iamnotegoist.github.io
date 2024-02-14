@@ -1,16 +1,16 @@
 title:              happychopin
 email:              kiju9512@gmail.com
-description:        개발에 관한 학습 내용을 기록하는 블로그
+description:        행복한 쇼팽의 개발 공부
 author:             happychopin
 baseurl:            ""
 url:                "https://iamnotegoist.github.io/"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:
+github_username:    Iamnotegoist
+facebook_username:
 instagram_username:  
-linkedin_username:gi
+linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
