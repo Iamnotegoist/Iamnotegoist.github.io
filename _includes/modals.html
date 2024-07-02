@@ -17,22 +17,32 @@
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
-            <p>{{ post.description }}</p>
+            <p style="text-align: left;">{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
+              {% if post.front-end %}
+              <li>프론트엔드:
+                <strong>{{ post.front-end }}</strong>
+              </li>
+              {% endif %}
+              {% if post.back-end %}
+              <li>백엔드:
+                <strong>{{ post.back-end }}</strong>
               </li>
               {% endif %}
               {% if post.project-date %}
-              <li>Date:
+              <li>기간:
                 <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
+              {% if post.youtube %}
+              <li>유튜브: 
+                <a href="{{ post.youtube }}">바로가기</a>
+              </li>
+              {% endif %}
+              {% if post.github %}
+              <li>깃허브: 
+                <a href="{{ post.github }}">바로가기</a>
               </li>
               {% endif %}
             </ul>
